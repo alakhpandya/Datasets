@@ -1,3 +1,4 @@
+use hr;
 create table employees (
 	employee_id VARCHAR(50),
 	first_name VARCHAR(50),
