@@ -1,0 +1,4 @@
+Welcome to the world of numpy!
+It stands for Numerical Python
+Its backend is written in C language.
+Numpy is must for all Machine Learning aspirants.
