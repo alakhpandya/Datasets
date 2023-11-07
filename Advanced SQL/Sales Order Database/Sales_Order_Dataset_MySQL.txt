@@ -1,4 +1,4 @@
--- create database demo;
+create database demo;
 use demo;
 /*
 select * from demo.Sales_order;

@@ -1,0 +1,30 @@
+link: https://www.kaggle.com/code/parulpandey/nifty-data-eda
+
+About Dataset
+Context
+The National Stock Exchange of India Limited (NSE) is the leading stock exchange of India, located in Mumbai. The NIFTY 50 index is National Stock Exchange of India's benchmark broad based stock market index for the Indian equity market.
+
+Apart from NIFTY 50 index, there are also other indices like NIFTY Next 50, Nifty Midcap 150 etc. Exploring these indices may help in taking investment decisions.
+
+Content
+This dataset has day level information on major NIFTY indices starting from 01 January 2000.
+
+Each file represents an index and has the following columns
+
+Date - date of observation
+Open - open value of the index on that day
+High - highest value of the index on that day
+Low - lowest value of the index on that day
+Close - closing value of the index on that day
+Volume - volume of transaction
+Turnover - turn over
+P/E - price to earnings ratio
+P/B - price to book value
+Div Yield - dividend yield
+Acknowledgements
+The data is obtained from NSE website with the help of nsepy python package.
+
+Photo credits: Photo by M. B. M. on Unsplash
+
+Inspiration
+Who wants to predict the future of stock prices? ;)

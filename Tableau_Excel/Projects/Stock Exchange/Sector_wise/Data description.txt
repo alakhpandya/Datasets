@@ -1,0 +1,30 @@
+Nifty 50 data - 
+    a) Date - Date of observation
+    b) Open - Open price of the index on a particular day
+    c) High - High price of the index on a particular day
+    d) Low - Low price of the index on a particular day
+    e) Close - Close price of the index on a particular day
+
+NIFTY 50 - Historical PE-PB-DIV - Data
+    a) Date - Date of observation
+    b) P/E - Price to Earnings Ratio
+    c) P/B - Price-to-book value
+    d) Div Yield % - Dividend Yield = Cash Dividend per share / Market Price per share * 100
+
+Gold price INR - Date and Gold price (INR per troy ounce)
+    Where 1 Troy ounce = 31.1035 gram
+
+
+Note - 
+
+    1) Price to Earnings Ratio (PE Ratio)
+
+        PE Ratio = Price per share / Earnings per share
+    Thumb Rule: A low P/E Ratio is preferred while buying stock. This P/E Ratio varies from sector to sector. 
+
+    2) Price to book ratio (PB Ratio)
+
+        PB Ratio = Price per share / Book value per share
+
+    Thumb Rule: A lower P/B value could mean that the stock is under valued. Definition of lower, varies from sector to sector. 
+
