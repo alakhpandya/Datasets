@@ -1,11 +1,5 @@
-select * from demo.Sales_order;
-select * from demo.Customers;
-select * from demo.Products;
-
-
-drop table demo.Sales_order;
-drop table demo.Customers;
-drop table demo.Products;
+create database demo;
+use demo;
 
 create table demo.Products
 (
