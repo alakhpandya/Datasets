@@ -1,0 +1,12 @@
+Create table If Not Exists facebook_friends (user1 int, user2 int);
+Truncate table facebook_friends;
+insert into facebook_friends values
+(2, 1)
+(1, 3)
+(4, 1)
+(1, 5)
+(1, 6)
+(2, 6)
+(7, 2)
+(8, 3)
+(3, 9);

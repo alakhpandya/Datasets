@@ -1,0 +1,34 @@
+CREATE TABLE GOOGLE_GMAIL_EMAILS (
+    ID INT PRIMARY KEY,
+    FROM_USER VARCHAR(255),
+    TO_USER VARCHAR(255),
+    DAYS INT
+);
+
+INSERT INTO GOOGLE_GMAIL_EMAILS 
+(ID, FROM_USER,TO_USER,DAYS)
+VALUES 
+(1,'Ayush','meet',1),
+(2,'khushi','khushi patel',2),
+(3,'karmant','Ayush',3),
+(4,'karmant','Nikunj',4),
+(5,'hardik','Nikunj',4),
+(6,'meet','Nikunj',4),
+(7,'Ayush','Alakh',3);
+
+select * from GOOGLE_GMAIL_EMAILS;
+
+CREATE TABLE GOOGLE_GMAIL_labels (
+    EMAIL_ID INT PRIMARY KEY,
+    LABEL VARCHAR(255)
+);
+INSERT INTO GOOGLE_GMAIL_labels 
+(EMAIL_ID, LABEL)
+VALUES 
+(1,'Promotion'),
+(2,'Social'),
+(3,'Shopping'),
+(4,'Promotion'),
+(5,'Promotion'),
+(6,'Social'),
+(8,'Spam');
