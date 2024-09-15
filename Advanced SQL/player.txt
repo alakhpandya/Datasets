@@ -1,0 +1,39 @@
+CREATE TABLE IF NOT EXISTS `player` (
+`id` INT NOT NULL AUTO_INCREMENT,
+`full_name` VARCHAR(45) NOT NULL,
+`points` DECIMAL(5,2) NOT NULL,
+`group_name` VARCHAR(10),
+PRIMARY KEY (`id`)
+);
+
+-- Insert data
+insert into player (full_name, points, group_name) values ('Noe Mann', 155.85, 'Group A');
+insert into player (full_name, points, group_name) values ('Precious Cummings', 188.58, 'Group A');
+insert into player (full_name, points, group_name) values ('Maryetta Wehner', 81.09, 'Group A');
+insert into player (full_name, points, group_name) values ('Todd Sharp', 188.59, 'Group A');
+insert into player (full_name, points, group_name) values ('Macie Bartoletti', 142.72, 'Group A');
+insert into player (full_name, points, group_name) values ('Emmitt Metz', 155.85, 'Group A');
+insert into player (full_name, points, group_name) values ('Ardella Langosh', 188.58, 'Group A');
+insert into player (full_name, points, group_name) values ('MARK Reilly', 73.3, 'Group A');
+insert into player (full_name, points, group_name) values ('Ardath Greenfelder', 71.4, 'Group A');
+insert into player (full_name, points, group_name) values ('Coleman Ferry', 124.2, 'Group A');
+insert into player (full_name, points, group_name) values ('Ray Camden', 176.34, 'Group A');
+insert into player (full_name, points, group_name) values ('Carolyne Abshire', 176.34, 'Group A');
+insert into player (full_name, points, group_name) values ('Jimmie Neighbors', 71.27, 'Group A');
+insert into player (full_name, points, group_name) values ('Kevin Hardy', 71.27, 'Group A');
+insert into player (full_name, points, group_name) values ('Loralee Fahey', 176.34, 'Group A');
+insert into player (full_name, points, group_name) values ('Corrinne Raynor', 86.74, 'Group B');
+insert into player (full_name, points, group_name) values ('Parthenia Gutmann', 100.01, 'Group B');
+insert into player (full_name, points, group_name) values ('Porfirio Medhurst', 161.45, 'Group B');
+insert into player (full_name, points, group_name) values ('Alex Cremin', 173.98, 'Group B');
+insert into player (full_name, points, group_name) values ('Sibyl Schaefer', 60.82, 'Group B');
+insert into player (full_name, points, group_name) values ('Marsha Robel', 191.62, 'Group B');
+insert into player (full_name, points, group_name) values ('Shayne Donnelly', 138.91, 'Group B');
+insert into player (full_name, points, group_name) values ('Tyler Stroz', 190.66, 'Group B');
+insert into player (full_name, points, group_name) values ('Douglass Grimes', 107.61, 'Group B');
+insert into player (full_name, points, group_name) values ('Jesse Rosenbaum', 105.52, 'Group B');
+insert into player (full_name, points, group_name) values ('Jeri Schmidt', 50.83, 'Group B');
+insert into player (full_name, points, group_name) values ('Roy McHaffa', 183.45, 'Group B');
+insert into player (full_name, points, group_name) values ('Scott Stroz', 183.45, 'Group B');
+insert into player (full_name, points, group_name) values ('Pamala Mann', 159.33, 'Group B');
+insert into player (full_name, points, group_name) values ('Bernita Yundt', 187.6, 'Group B');

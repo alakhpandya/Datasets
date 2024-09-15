@@ -1,0 +1,19 @@
+CREATE TABLE weather (
+    record_id int,
+    date date,
+    city varchar(50),
+    temperature float,
+    precipitation int
+);
+
+Insert into weather values
+(101, '2021-09-01', 'Rome', 18.5, 7),
+(102, '2021-09-01', 'Florence', 17.3, 5),
+(103, '2021-09-02', 'Rome', 18.0, 20),
+(104, '2021-09-02', 'Florence', 17.0, 15),
+(105, '2021-09-03', 'Rome', 20.1, 12),
+(106, '2021-09-03', 'Florence', 19.0, 10),
+(107, '2021-09-04', 'Rome', 20.2, 0),
+(108, '2021-09-04', 'Florence', 19.6, 0),
+(109, '2021-09-05', 'Rome', 22.5, 0),
+(110, '2021-09-05', 'Florence', 20.4, 0);
